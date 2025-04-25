@@ -17,7 +17,7 @@ public class Main {
         HDD hdd = new HDD(HddType.SSD, 12056, 600);
         KeyBoard keyBoard = new KeyBoard(KeyBoardType.sensor, 100);
         Operative operative = new Operative(OperativeType.DDR3, 200, 2056);
-        Screen screen = new Screen(173, ScreenType.IPS, 2000);
+        Screen screen = new Screen(173, ScreenType.IPS, 200);
 
         Computer computer = new Computer(processor,hdd,keyBoard,screen,operative );
 
